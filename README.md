@@ -2,6 +2,22 @@
 # Dirsync
 `dirsync` is a lightweight Bash script designed to synchronize a single local directory with a remote directory over SSH. It provides a simple, reliable way to push local changes to a remote server, functioning like a remote auto-save for your files.
 
+_Sample Output_
+```shell
+$ ./dirsync.sh myproject myremotevm-001 ongoing
+
+[+] Processing... | Local Dir: /home/bobby/local_dirs/myproject | Remote Dir: /home/ubuntu/remote_dirs/myproject
+.
+[+] Processing... | Local Dir: /home/bobby/local_dirs/myproject | Remote Dir: /home/ubuntu/remote_dirs/myproject
+.
+[+] Processing... | Local Dir: /home/bobby/local_dirs/myproject | Remote Dir: /home/ubuntu/remote_dirs/myproject
+
+Size Changed. Syncing remote...
+.
+[+] Processing... | Local Dir: /home/bobby/local_dirs/myproject | Remote Dir: /home/ubuntu/remote_dirs/myproject
+.
+```
+
 ## Features
 - Syncs a single local directory to a remote directory.
 - Supports one-time or continuous synchronization.
