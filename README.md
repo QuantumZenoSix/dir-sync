@@ -17,7 +17,7 @@
 ## Installation
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/bobby-valenzuela/DirSync.git
+   git clone https://github.com/QuantumZenoSix/dir-sync.git
    ```
 2. Navigate to the project directory:
    ```bash
